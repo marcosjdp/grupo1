@@ -5231,7 +5231,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #ea2a3d !important;
+  background-color: #007bff !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
@@ -5287,7 +5287,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #d2d2d2 !important;
+  background-color: #343a40 !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
