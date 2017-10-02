@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>E-COMCERCE</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- CSS mio -->
+		<link href="css/logo-nav.css" rel="stylesheet">
+		
+		
+	</head>
+
+	<body>
+		
+
+		
+		<!-- NavBar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			
+		    <div class="container">
+			  
+				<a class="navbar-brand" href="index.html">
+					<img src="img/webcomerce.svg" width="150" height="30" alt="">
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<!-- buscador -->   
+					<div class="navbar-nav ml-auto justify-content-center">   
+            <form class="mr-auto ml-auto text-center justify-content-center form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="¿Que buscas?" aria-label="Buscar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              <a href="listaArticulos.html">Buscar</a>
+              </button>
+            </form>
+          </div>
+          <ul class="navbar-nav ml-auto">
+						<!--Accesos Directos -->    
+						<div class="d-flex flex-row justify-content-center">   
+
+          <a href="contacto.html" class="btn btn-outline-warning ml-2"><img src="img/Contacto.svg" width="30" height="30"></a>
+          <a href="https://www.facebook.com" target="_blank" class="btn btn-outline-primary ml-2"><img src="img/Face.svg" width="30" height="30"></a>
+          <a href="https://twitter.com/?lang=es" target="_blank" class="btn btn-outline-info ml-2"><img src="img/Tw.svg" width="30" height="30"></a>
+            </div>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<form class="container py-3">
+
+			<div class="form-group"> <!-- Apellido y nombre -->
+				<label for="full_name_id" class="control-label">Apellido y Nombre</label>
+				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Apellido, Nombre">
+			</div>    
+
+			<div class="form-group"> <!-- Domicilio -->
+				<label for="street1_id" class="control-label">Domicilio </label>
+				<input type="text" class="form-control" id="street1_id" name="street1" placeholder="Calle, altura, piso, localidad">
+			</div>                    
+		 
+
+			<div class="form-group"> <!-- Provincia-->
+				<label for="city_id" class="control-label">Provincia</label>
+				<input type="text" class="form-control" id="city_id" name="city" placeholder="ej: Chaco">
+			</div>                                    
+									
+			<div class="form-group"> <!-- país -->
+				<label for="state_id" class="control-label">País</label>
+				<select class="form-control" id="state_id">
+					<option value="">País 1</option>
+					<option value="">País 2</option>
+					<option value="">País 3</option>
+					<option value="">...</option>
+					<option value="">País n</option>
+					
+				</select>                    
+			</div>
+			
+			<div class="form-group"> <!-- CP-->
+				<label for="zip_id" class="control-label">Código Postal</label>
+				<input type="text" class="form-control" id="zip_id" name="zip" placeholder="ej: 3503 para Barranqueras">
+			</div>        
+			
+			<div class="form-group"> <!-- boton de comprar -->
+				<button type="submit" class="btn btn-primary">Confirmar y COMPRAR</button>
+			</div>     
+			
+		</form>
+		
+		
+		<script src="jquery/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- pie -->
+		<footer class="py-5 bg-dark">
+			
+			<div class="container">
+				<p class="m-0 text-center text-white">Copyright &copy; Web-Comerce 2017</p>
+			</div>
+		
+		</footer>
+
+		<!-- JavaScript <script src="/assets/js/vendor/popper.min.js"></script> -->
+		<script src="jquery/jquery.min.js"></script>
+		<!-- <script src="popper/popper.min.js"></script> -->
+		<script src="js/bootstrap.min.js"></script>
+		
+		<script type="text/javascript" src="/bootstrap-4.0.0-beta/assets/js/vendor/popper.min.js"></script>
+		
+
+	</body>
+
+</html>
